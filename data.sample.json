@@ -1,0 +1,240 @@
+{
+  "entries": {
+    "ea2b178c2": {
+      "id": "ea2b178c2",
+      "text": "ヨルシカ",
+      "createdBy": "100001",
+      "createdAt": 1794400000,
+      "category": "乐队",
+      "kind": "sub",
+      "updatedAt": 1794400000
+    },
+    "e1f5fc6cf": {
+      "id": "e1f5fc6cf",
+      "text": "アニソン",
+      "createdBy": "100001",
+      "createdAt": 1794400060,
+      "category": "领域",
+      "kind": "main",
+      "updatedAt": 1794400060
+    },
+    "eba47785e": {
+      "id": "eba47785e",
+      "text": "ボカロ",
+      "createdBy": "100001",
+      "createdAt": 1794400120,
+      "category": "歌手",
+      "kind": "main",
+      "updatedAt": 1794400120
+    },
+    "e9b227f8e": {
+      "id": "e9b227f8e",
+      "text": "ずっと真夜中でいいのに。",
+      "createdBy": "100001",
+      "createdAt": 1794400180,
+      "category": "乐队",
+      "kind": "sub",
+      "updatedAt": 1794400180
+    },
+    "e6e7855a1": {
+      "id": "e6e7855a1",
+      "text": "Vaundy",
+      "createdBy": "100001",
+      "createdAt": 1794400240,
+      "category": "歌手",
+      "kind": "sub",
+      "updatedAt": 1794400240
+    },
+    "e7d9622fc": {
+      "id": "e7d9622fc",
+      "text": "Official髭男dism",
+      "createdBy": "100001",
+      "createdAt": 1794400300,
+      "category": "乐队",
+      "kind": "sub",
+      "updatedAt": 1794400300
+    },
+    "e7ed2a47a": {
+      "id": "e7ed2a47a",
+      "text": "藤井風",
+      "createdBy": "100001",
+      "createdAt": 1794400360,
+      "category": "歌手",
+      "kind": "sub",
+      "updatedAt": 1794400360
+    },
+    "ee2d96aa4": {
+      "id": "ee2d96aa4",
+      "text": "RADWIMPS",
+      "createdBy": "100001",
+      "createdAt": 1794400420,
+      "category": "乐队",
+      "kind": "sub",
+      "updatedAt": 1794400420
+    },
+    "efca21c03": {
+      "id": "efca21c03",
+      "text": "King Gnu",
+      "createdBy": "100001",
+      "createdAt": 1794400480,
+      "category": "乐队",
+      "kind": "sub",
+      "updatedAt": 1794400480
+    },
+    "eececbc0d": {
+      "id": "eececbc0d",
+      "text": "米津玄師",
+      "createdBy": "100001",
+      "createdAt": 1794400540,
+      "category": "歌手",
+      "kind": "sub",
+      "updatedAt": 1794400540
+    },
+    "e01a36c92": {
+      "id": "e01a36c92",
+      "text": "サカナクション",
+      "createdBy": "100001",
+      "createdAt": 1794400600,
+      "category": "乐队",
+      "kind": "sub",
+      "updatedAt": 1794400600
+    },
+    "edf501720": {
+      "id": "edf501720",
+      "text": "YOASOBI",
+      "createdBy": "100001",
+      "createdAt": 1794400660,
+      "category": "组合",
+      "kind": "sub",
+      "updatedAt": 1794400660
+    },
+    "e67b08f11": {
+      "id": "e67b08f11",
+      "text": "Galgame",
+      "createdBy": "100001",
+      "createdAt": 1794400720,
+      "category": "歌手",
+      "kind": "main",
+      "updatedAt": 1794400720
+    },
+    "e2fe3e282": {
+      "id": "e2fe3e282",
+      "text": "Aimer",
+      "createdBy": "100001",
+      "createdAt": 1794400780,
+      "category": "歌手",
+      "kind": "sub",
+      "updatedAt": 1794400780
+    },
+    "ee14f1068": {
+      "id": "ee14f1068",
+      "text": "k-on",
+      "createdBy": "100001",
+      "createdAt": 1794400840,
+      "category": "企划",
+      "kind": "sub",
+      "updatedAt": 1794400840
+    },
+    "e3bbda9d8": {
+      "id": "e3bbda9d8",
+      "text": "HoneyWorks",
+      "createdBy": "100001",
+      "createdAt": 1794400900,
+      "category": "企划",
+      "kind": "sub",
+      "updatedAt": 1794400900
+    }
+  },
+  "members": {
+    "100001": {
+      "qq": "100001",
+      "name": "示例群友A",
+      "consent": true,
+      "selection": [
+        {
+          "id": "ea2b178c2",
+          "level": 4
+        },
+        {
+          "id": "e1f5fc6cf",
+          "level": 3
+        },
+        {
+          "id": "eba47785e",
+          "level": 3
+        },
+        {
+          "id": "e9b227f8e",
+          "level": 2
+        }
+      ],
+      "created": 1794400000,
+      "createdAt": 1794400000,
+      "pinHash": "",
+      "lastJoinAt": 1794400000,
+      "note": "最近在补旧专，想找人一起聊编曲～",
+      "noteAt": 1794400600,
+      "boardUserId": "",
+      "gender": "female",
+      "genderPublic": true
+    },
+    "100002": {
+      "qq": "100002",
+      "name": "示例群友B",
+      "consent": true,
+      "selection": [
+        {
+          "id": "ea2b178c2",
+          "level": 3
+        },
+        {
+          "id": "eba47785e",
+          "level": 4
+        },
+        {
+          "id": "e6e7855a1",
+          "level": 3
+        }
+      ],
+      "created": 1794400000,
+      "createdAt": 1794400000,
+      "pinHash": "",
+      "lastJoinAt": 1794400000,
+      "note": "",
+      "noteAt": 0,
+      "boardUserId": "",
+      "gender": "male",
+      "genderPublic": true
+    },
+    "100003": {
+      "qq": "100003",
+      "name": "示例群友C",
+      "consent": true,
+      "selection": [
+        {
+          "id": "e1f5fc6cf",
+          "level": 4
+        },
+        {
+          "id": "e7d9622fc",
+          "level": 3
+        }
+      ],
+      "created": 1794400000,
+      "createdAt": 1794400000,
+      "pinHash": "",
+      "lastJoinAt": 1794400000,
+      "note": "",
+      "noteAt": 0,
+      "boardUserId": "",
+      "gender": "",
+      "genderPublic": false
+    }
+  },
+  "settings": {
+    "adminPasswordHash": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270"
+  },
+  "shouts": [],
+  "shoutHistory": [],
+  "trend": []
+}

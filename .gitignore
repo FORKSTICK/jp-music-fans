@@ -1,0 +1,34 @@
+# 本地数据与隐私 —— 不要提交真实数据
+data.json
+data.json.*
+private/
+backups/
+archive/
+docs/本地*
+*.log
+ngrok.err.log
+ngrok.log
+
+# 运行缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 截图 / 预览（可能含真实群友信息）
+preview-*.png
+*.bak
+*.bak-*
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 站内正片（真实群友上传的壁纸 / 交接文档，含私人信息）
+public/walls/*
+!public/walls/manifest.json
+HANDOFF-*.md
+docs/ROOM-ACTIVITY-SPEC.md
+
+# 二进制工具（体积大，按需自己下载）
+tools/*.exe

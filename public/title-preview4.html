@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>标题方案 v4 · 萌系</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;padding:26px 22px 60px;font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;color:#3d3048;
+    background:radial-gradient(1200px 650px at 18% -8%,#fff0f7 0%,#fdefff 40%,#f1f5ff 100%);min-height:100vh}
+  h1.page{font-size:20px;margin:0 0 6px}
+  p.lead{margin:0 0 22px;color:#6b6178;font-size:13px}
+  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:1060px}
+  .opt{background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.95);border-radius:22px;padding:26px 18px;position:relative;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:208px;overflow:hidden;
+    box-shadow:0 12px 28px rgba(150,110,180,.14)}
+  .cap{position:absolute;top:12px;left:14px;font-size:12px;color:#9583aa}
+  .cap b{color:#ec5f9d}
+  .demo{font-size:clamp(24px,3vw,38px);font-weight:900;line-height:1.25;display:flex;align-items:center;gap:.06em;flex-wrap:wrap;justify-content:center;text-align:center;
+    font-family:"Yuanti SC","YouYuan","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.03em}
+  @media (max-width:820px){ .grid{grid-template-columns:1fr} }
+
+  /* 1 糖果胶囊：每个字带一块圆角底 */
+  .o1 .demo{gap:.16em;transform:rotate(-1.5deg)}
+  .o1 .ch{display:inline-block;padding:.08em .16em;border-radius:.42em;background:linear-gradient(180deg,#fff 0%,#ffe3f1 52%,#ffc9e4 100%);
+    color:#ff4f9c;-webkit-text-stroke:.6px rgba(255,255,255,.9);
+    box-shadow:0 3px 0 rgba(255,140,190,.55),0 8px 14px rgba(255,130,180,.24),inset 0 1px 0 #fff}
+  .o1 .ch.hot{color:#ff7a3d;background:linear-gradient(180deg,#fff 0%,#ffe9d2 55%,#ffd3b0 100%);box-shadow:0 3px 0 rgba(255,170,120,.5),0 8px 14px rgba(255,150,110,.22),inset 0 1px 0 #fff}
+
+  /* 2 毛绒绒：多层柔光模拟绒毛边 */
+  .o2 .w{color:#fff;-webkit-text-stroke:3px #ffd9ea;paint-order:stroke fill;
+    text-shadow:0 0 6px #ffb2d6,0 0 12px #ff9ac7,0 0 20px rgba(255,150,200,.85),0 3px 0 rgba(232,110,170,.55)}
+  .o2 .w .in{-webkit-text-stroke:0;color:#ff5ba5}
+
+  /* 3 双色描边贴纸 */
+  .o3 .w{color:#fff;-webkit-text-stroke:7px #fff;paint-order:stroke fill;
+    text-shadow:0 0 0 #fff,
+      0 0 10px rgba(255,120,180,.55),
+      0 6px 0 rgba(255,170,205,.9),
+      0 10px 18px rgba(200,120,170,.3);
+    position:relative}
+  .o3 .in{color:#ff4f9c;-webkit-text-stroke:0}
+  .o3 .candy{position:absolute;font-size:22px;right:-6px;top:-14px;transform:rotate(14deg)}
+  .o3 .demo{transform:rotate(-1deg)}
+
+  /* 4 布丁高光 */
+  .o4 .w{background:linear-gradient(180deg,#fffdf2 0%,#fff1c9 34%,#ffdca6 66%,#ffc98d 100%);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    -webkit-text-stroke:1.4px rgba(150,95,60,.5);paint-order:stroke fill;
+    filter:drop-shadow(0 1px 0 #fff) drop-shadow(0 4px 0 rgba(214,160,120,.55)) drop-shadow(0 10px 16px rgba(190,140,110,.25))}
+  .o4 .shine{position:absolute;left:50%;top:26%;transform:translateX(-50%);width:58%;height:10px;border-radius:999px;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.85),transparent);filter:blur(3px);pointer-events:none}
+
+  .note{max-width:1060px;margin:22px 0 0;font-size:13px;color:#6b6178;line-height:1.7}
+</style>
+</head>
+<body>
+  <h1 class="page">🍬 标题方案 v4 · 更萌的一组</h1>
+  <p class="lead">首页标题仍是原版；这些都是纯 CSS，选定后再换。</p>
+  <div class="grid">
+
+    <section class="opt o1"><div class="cap"><b>1</b> · 糖果胶囊</div>
+      <div class="demo">
+        <span class="ch">日</span><span class="ch">音</span>
+        <span class="ch hot">成</span><span class="ch hot">分</span>
+        <span class="ch">匹</span><span class="ch">配</span><span class="ch">器</span>
+      </div></section>
+
+    <section class="opt o2"><div class="cap"><b>2</b> · 毛绒绒</div>
+      <div class="demo"><span class="w">🎧 <span class="in">日音成分匹配器</span></span></div></section>
+
+    <section class="opt o3"><div class="cap"><b>3</b> · 双色描边贴纸</div>
+      <div class="demo"><span class="w"><span class="in">日音成分匹配器</span><span class="candy">🍬</span></span></div></section>
+
+    <section class="opt o4"><div class="cap"><b>4</b> · 布丁高光</div>
+      <div class="demo"><span class="w">日音成分匹配器</span><span class="shine"></span></div></section>
+
+  </div>
+  <p class="note">混搭：1 的胶囊底 + 2 的粉色绒毛边；3 的双描边 + 4 的奶油渐变。</p>
+</body>
+</html>
